@@ -1,0 +1,96 @@
+commit 709df6c5c45e07988d5940cc5753057fa357ea37
+Author: XLis <62832504+XLis@users.noreply.github.com>
+Date:   Sat Dec 12 17:27:21 2020 +0300
+
+    Creating a new file
+    
+    Создан новый файл
+
+ Some file | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 07e3f3b145be69a915ee33da2d1e01892a0bd9dc
+Merge: d6b9808 f9af862
+Author: Tikhonov Slava <Awkword6@gmail.com>
+Date:   Sat Dec 12 14:53:55 2020 +0300
+
+    merged two versions
+
+commit d6b98080531eb79af16928abd20ce565225e5ff5
+Merge: 6c5fb4b 0f9f50d
+Author: Tikhonov Slava <Awkword6@gmail.com>
+Date:   Sat Dec 12 14:52:09 2020 +0300
+
+    merged two versions
+
+commit f9af8628c70400f57625f0424dfc4b183cf7d266
+Author: XLis <62832504+XLis@users.noreply.github.com>
+Date:   Sat Dec 12 14:47:22 2020 +0300
+
+    Update mergefile.txt
+
+ mergefile.txt | 5 ++---
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+
+commit 6c5fb4bf377572deba8b7f81378283ea86b33308
+Author: XLis <62832504+XLis@users.noreply.github.com>
+Date:   Sat Dec 12 14:39:41 2020 +0300
+
+    Create Test FIle
+
+ Test FIle | 50 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 50 insertions(+)
+
+commit c4186b0ea432ea1c3b7c634f3b01598724c6b496
+Author: XLis <62832504+XLis@users.noreply.github.com>
+Date:   Sat Dec 12 14:36:38 2020 +0300
+
+    Delete Test FIle
+
+ Test FIle | 50 --------------------------------------------------
+ 1 file changed, 50 deletions(-)
+
+commit a2394ed086a73f3bac6143528181b40c4cffb416
+Author: XLis <62832504+XLis@users.noreply.github.com>
+Date:   Sat Dec 12 12:29:12 2020 +0300
+
+    Create Test FIle
+
+ Test FIle | 50 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 50 insertions(+)
+
+commit 921f53b8d0cebf542c791cf31f04e9b792f385a4
+Author: Kurtyanik <45309985+Kurtyanik@users.noreply.github.com>
+Date:   Sat Nov 21 20:09:49 2020 +0300
+
+    Обновление информации
+
+ mergefile.txt | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+commit 0f9f50db68a6983b47398017545532cd0f992846
+Author: Kurtyanik <45309985+Kurtyanik@users.noreply.github.com>
+Date:   Sat Nov 21 20:08:33 2020 +0300
+
+    Заполнил файл
+
+ mergefile.txt | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+commit c08a654a63cfc3a7146b2b7015884d9020f5cbf5
+Author: Kurtyanik <45309985+Kurtyanik@users.noreply.github.com>
+Date:   Sat Nov 21 20:02:16 2020 +0300
+
+    Файл создан пустым
+
+ mergefile.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 3c6e9131bb47ed6009c28226afb0535c7f6d5964
+Author: Kurtyanik <45309985+Kurtyanik@users.noreply.github.com>
+Date:   Sat Nov 21 19:58:20 2020 +0300
+
+    Initial commit
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
