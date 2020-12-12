@@ -1,0 +1,50 @@
+import pyodbc
+import PIL
+from PIL import Image
+import kivy
+import os
+import sys
+
+def import_pictures_binary(ppath):
+    f = open(ppath, 'rb')
+    binary = f.read()
+    return binary
+
+def export_picture_binary(binary):
+    f = open(r"C:\Users\xliss\PycharmProjects\TestBD\Pictures\export.jpg", 'wb')
+    f.write(binary)
+
+
+def AddImage(Name, Image, Tag1 ='', Tag2='', Tag3='', Tag4='', Tag5='None'):
+
+    data = (Name, Image, Tag1, Tag2, Tag3, Tag4, Tag5)
+    return data
+
+def ConnAddImage():
+    conn = pyodbc.connect(
+        r'Driver={SQL Server Native Client 11.0};Server=localhost\SQLEXPRESS;Database=TAMADA;Trusted_Connection=Yes;')
+    cursor = conn.cursor()
+
+    cursor.execute("INSERT into MImages (Name, Image, Tag1, Tag2, Tag3, Tag4, Tag5) values (?, ?, ?, ?, ?, ?, ?)", (
+    "Слово Лектора", import_pictures_binary(r"C:\Users\xliss\PycharmProjects\TestBD\Pictures\мем.jpg"), "Университет",
+    "Лекция", "Синяя кнопка", "Лектор", ""))
+    print("Изображение добавлено!")
+    conn.commit()
+    conn.close()
+
+def GetImage(Name):
+    conn = pyodbc.connect(
+        r'Driver={SQL Server Native Client 11.0};Server=localhost\SQLEXPRESS;Database=TAMADA;Trusted_Connection=Yes;')
+    cursor = conn.cursor()
+
+    cursor.execute("Select Image FROM dbo.MImages where Name = '"+Name+"'")
+    bin_record = cursor.fetchone()
+    export_picture_binary(bin_record[0])
+
+    cursor.close()
+    conn.close()
+
+print(r"ssss\s")
+
+
+GetImage("Слово Лектора")
