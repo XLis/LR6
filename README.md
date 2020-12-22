@@ -1,6 +1,6 @@
 #ЛАБОРАТОРНАЯ РАБОТА №6
 
-Сначала я скопировал проект в свой github.
+Сначала я скопировал проект в свой _Github_.
 
 ![](screenshots/s1.png)
 
@@ -12,51 +12,51 @@
 
 ![](screenshots/s3.png)
 
-В папке Lab я инициализировал git, затем связал удаленный репозиторий с данной папкой, а затем, клонировал проект в папку. 
+В папке Lab я инициализировал _git_, затем связал удаленный репозиторий с данной папкой, а затем, клонировал проект в папку. 
 
 ![](screenshots/s4.png)
 
-В результате, в папке Lab появляются файлы. 
+В результате, в папке _Lab_ появляются файлы. 
 
 ![](screenshots/s5.png)
 
-Затем, при помощи GitHub, я создал текстовый файл с примером кода, после чего сохранил при помощи кнопки «Commit new file» 
+Затем, при помощи GitHub, я создал текстовый файл с примером кода, после чего сохранил при помощи кнопки _«Commit new file»_ 
 
 ![](screenshots/s6.png)
 
-В GtiBash я ввел команду git pull origin master, которая загружает все изменения.
+В GtiBash я ввел команду _git pull origin master_, которая загружает все изменения.
 
 ![](screenshots/s7.png)
 
-Для того, чтобы посмотреть все последние изменения, можно использовать команду git log.
+Для того, чтобы посмотреть все последние изменения, можно использовать команду _git log_.
 
 ![](screenshots/s8.png)
 
-Можно также, например, при помощи команды git show ‘Код коммита’ можно получить подробную информацию 
+Можно также, например, при помощи команды _git show ‘Код коммита’_ можно получить подробную информацию 
 о последнем изменении
 
 ![](screenshots/s9.png)
 
-При помощи git checkout можно переключится в различные ветки репозитория. Однако, я попытался 
-загрузить в ветку мастер сразу ветку branch1, попутно выполнив слияние. Однако, возникла ошибка.
+При помощи _git checkout_ можно переключится в различные ветки репозитория. Однако, я попытался 
+загрузить в ветку мастер сразу ветку _branch1_, попутно выполнив слияние. Однако, возникла ошибка.
 
 ![](screenshots/s10.png)
 
-Исправив ошибку в mergefile(конфликт текста внутри), я вновь попробовал слить ветку, и, на этот раз,
+Исправив ошибку в _mergefile_(конфликт текста внутри), я вновь попробовал слить ветку, и, на этот раз,
 все получилось.
 
 ![](screenshots/s11.png)
 
-После, я удалил ненужную ветку branch1 и запушил все в github
+После, я удалил ненужную ветку _branch1_ и запушил все в _github_
 
 ![](screenshots/s12.png)
 
-Видно, что осталась лишь одна ветка master 
+Видно, что осталась лишь одна ветка _master_ 
 
 ![](screenshots/s13.png)
 
 Я создал несколько файлов с разным описанием(причем GitHub создает собственное стандартное описание, 
-которое видно возле файла Test File)
+которое видно возле файла _Test File_)
 
 ![](screenshots/s14.png)
 
@@ -70,12 +70,12 @@
 
 ![](screenshots/s16.png)
 
-После, я сохранил все скрины в отдельную папку, и при помощи git status проверил наличие файлов
+После, я сохранил все скрины в отдельную папку, и при помощи _git status_ проверил наличие файлов
  перед коммитом
 
 ![](screenshots/s17.png)
 
-Затем, я создал отчет в файле Readme.md
+Затем, я создал отчет в файле _Readme.md_
 
 ![](screenshots/s18.png)
 
@@ -85,28 +85,7 @@
 
 ## Форматированный лог:
 
-'''
-* f6ab7fd - Tikhonov Slava, 20 minutes ago : The very last
-* 72d309e - Tikhonov Slava, 22 minutes ago : Changed readme
-* 4013a6a - Tikhonov Slava, 23 minutes ago : Final Res
-* 7d13810 - Tikhonov Slava, 10 days ago : Исправленный Readme V2
-* 48870fa - Tikhonov Slava, 10 days ago : Исправленный Readme
-* 7cd2b3a - Tikhonov Slava, 10 days ago : Конечный итог
-* 709df6c - XLis, 10 days ago : Creating a new file
-*   07e3f3b - Tikhonov Slava, 10 days ago : merged two versions
-|\
-| * f9af862 - XLis, 10 days ago : Update mergefile.txt
-* | d6b9808 - Tikhonov Slava, 10 days ago : merged two versions
-|\|
-| * 0f9f50d - Kurtyanik, 4 weeks ago : Заполнил файл
-* | 6c5fb4b - XLis, 10 days ago : Create Test FIle
-* | c4186b0 - XLis, 10 days ago : Delete Test FIle
-* | a2394ed - XLis, 10 days ago : Create Test FIle
-* | 921f53b - Kurtyanik, 4 weeks ago : Обновление информации
-|/
-* c08a654 - Kurtyanik, 4 weeks ago : Файл создан пустым
-* 3c6e913 - Kurtyanik, 4 weeks ago : Initial commit
-'''
+![](screenshots/s22.png)
 
 Все скриншоты располагаются в папке screenshots.
 
