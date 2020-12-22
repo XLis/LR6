@@ -1,3 +1,5 @@
+#ЛАБОРАТОРНАЯ РАБОТА №6
+
 Сначала я скопировал проект в свой github.
 
 ![](screenshots/s1.png)
@@ -6,7 +8,7 @@
 
 ![](screenshots/s2.png)
 
-После, я перешел в папку Lab, где будут проходить все манипуляции с репозиторием.
+После, я перешел в папку _Lab_, где будут проходить все манипуляции с репозиторием.
 
 ![](screenshots/s3.png)
 
@@ -81,11 +83,33 @@
 
 ![](screenshots/s19.png)
 
-Также можно посмотреть историю операций для каждой из веток(см два скриншота ниже)
+## Форматированный лог:
 
-![](screenshots/s20.png)
-
-![](screenshots/s21.png)
+'''
+* f6ab7fd - Tikhonov Slava, 20 minutes ago : The very last
+* 72d309e - Tikhonov Slava, 22 minutes ago : Changed readme
+* 4013a6a - Tikhonov Slava, 23 minutes ago : Final Res
+* 7d13810 - Tikhonov Slava, 10 days ago : Исправленный Readme V2
+* 48870fa - Tikhonov Slava, 10 days ago : Исправленный Readme
+* 7cd2b3a - Tikhonov Slava, 10 days ago : Конечный итог
+* 709df6c - XLis, 10 days ago : Creating a new file
+*   07e3f3b - Tikhonov Slava, 10 days ago : merged two versions
+|\
+| * f9af862 - XLis, 10 days ago : Update mergefile.txt
+* | d6b9808 - Tikhonov Slava, 10 days ago : merged two versions
+|\|
+| * 0f9f50d - Kurtyanik, 4 weeks ago : Заполнил файл
+* | 6c5fb4b - XLis, 10 days ago : Create Test FIle
+* | c4186b0 - XLis, 10 days ago : Delete Test FIle
+* | a2394ed - XLis, 10 days ago : Create Test FIle
+* | 921f53b - Kurtyanik, 4 weeks ago : Обновление информации
+|/
+* c08a654 - Kurtyanik, 4 weeks ago : Файл создан пустым
+* 3c6e913 - Kurtyanik, 4 weeks ago : Initial commit
+'''
 
 Все скриншоты располагаются в папке screenshots.
+
+
+
 
